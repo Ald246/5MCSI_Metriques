@@ -21,7 +21,7 @@
           });
       }
 
-      function drawHistogram(data) {
+function drawHistogram(data) {
         var dataTable = new google.visualization.DataTable();
         dataTable.addColumn('string', 'Date');
         dataTable.addColumn('number', 'Température (°C)');
@@ -42,5 +42,5 @@
         chart.draw(dataTable, options);
       }
     </script>
-  </body>
+  </body>
 </html>
