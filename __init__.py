@@ -9,8 +9,9 @@ app = Flask(__name__)
 @app.route("/contact/")
 def MaPremiereAPI():
     return "<h2>Ma page de contact</h2>"
+
 @app.route("/contact/")
-def MaPremiereAPI():
+def MaPremiereAPI2():
     return "<h2>Ma page de contact</h2>"
                                                                                                                                        
 @app.route('/')
